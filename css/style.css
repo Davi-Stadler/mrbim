@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Oswald:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+    
+}
+main{
+    background-color: #F5F5F5;
+    padding: 25px;
+}
+form{
+    background: rgb(218,153,153);
+background: linear-gradient(90deg, rgba(218,153,153,1) 22%, rgba(213,33,33,1) 66%, rgba(222,15,15,1) 97%);
+    width: 55%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1%;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    
+}
+.container-form fieldset > div{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"]{
+    padding: 5px;
+    border: none;
+}
+input[type="text"]::placeholder{
+    color: black;
+}
+input[type="text"]:focus{
+    outline: none;
+    border: 2px solid black;
+}
+textarea{
+    min-height: 150px;
+    resize: none;
+    outline: none;
+}
+.container-botoes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-items: center;
+}
+.container-botoes input{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.container-botoes input:hover{
+    background-color: darkred;
+}
+header{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #E0E0E0;
+
+}
+header p{
+    padding: 20px;
+    text-shadow: none;
+}
+
+
